@@ -1,4 +1,4 @@
-# Make Changer
+# Make Change
 
 ### Overview
 
@@ -7,7 +7,7 @@ explain basic idea of project
 ### How to use
 instruction to user on how to rin project
 
-### Tecnilogies
+### Technologies
 
 * conditiionals,
 * Modulus operator
