@@ -35,19 +35,28 @@ public class MakeChange {
 			
 			twenties = returnedAmount /2000;			
 			returnedAmount = returnedAmount % 2000;
+			
 			tens = returnedAmount /1000;
 			returnedAmount = returnedAmount % 1000;
+			
 			fives = returnedAmount /500;
 			returnedAmount = returnedAmount % 500;
+			
 		    dollars = returnedAmount /100;
 			returnedAmount = returnedAmount % 100;
+			
 			quarters = returnedAmount /25;
 			returnedAmount = returnedAmount % 25;
-			nickles = returnedAmount /5;
-			returnedAmount = returnedAmount % 5;
+			
 			dimes = returnedAmount /10;
 			returnedAmount = returnedAmount % 10;
-			pennies = returnedAmount;
+			
+			
+			nickles = returnedAmount /5;
+			returnedAmount = returnedAmount % 5;
+			
+			pennies = returnedAmount /1;
+			returnedAmount = returnedAmount % 1;
 			 
 			
 			if(twenties != 0) {
@@ -66,7 +75,7 @@ public class MakeChange {
 				System.out.println("quarters " + quarters);
 			}
 			if(dimes != 0) {
-				System.out.println("dimes" + dimes);
+				System.out.println("dimes " + dimes);
 			}
 			if(nickles != 0) {
 				System.out.println("nickles " + nickles);
@@ -74,8 +83,7 @@ public class MakeChange {
 			if(pennies != 0) {
 				System.out.println("pennies " + pennies);
 			}			
-			System.out.println("Your amount: \n" + twenties + " twenties\n" + tens + " tens\n" + fives + " fives\n" + dollars + " dollars\n" + quarters + " quarters\n" + nickles + " nickles\n" + dimes + " dimes\n" + pennies + " pennies\n" );	  
-			
+	
 			kb.close();
 		
 	}
