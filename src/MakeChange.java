@@ -31,7 +31,7 @@ public class MakeChange {
 			}
 			
 			double amount = remainingAmount;
-			int returnedAmount = (int)(amount * 100);					
+			int returnedAmount = (int)(Math.round(amount * 100));					
 			
 			twenties = returnedAmount /2000;			
 			returnedAmount = returnedAmount % 2000;
